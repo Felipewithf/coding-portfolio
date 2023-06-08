@@ -47,14 +47,14 @@ footer ul {
     margin: 0;
 }
 
-section {
+main>section {
 border: 1px solid black;
 height: fit-content; 
 display: flex;
 justify-content: space-between;
 width: 100%;
 min-height: 100px;   
-margin: 10px 0;
+margin: 50px 0;
 }
 
 main aside {
