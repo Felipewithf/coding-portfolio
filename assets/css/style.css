@@ -1,6 +1,15 @@
+
 *{
  box-sizing: border-box;
 }
+
+p{
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+
+
 header{
     background-color: pink;
     width: 100vw;
@@ -59,18 +68,21 @@ main aside {
     font-size: large;
 }
 
-main section section {
+.content {
     width: 66.4%;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 20px;
+    padding-right: 18vw;
     
 }
 
 .box-container{
-    justify-content: flex-start;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 0;
 }
 
 card{
@@ -78,6 +90,6 @@ card{
     flex: 1 0 30%;
     height: 100px;
     max-width: 30%;
-    margin: 10px;
+    margin: 10px 10px;
 }
 
