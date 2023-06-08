@@ -1,25 +1,46 @@
-
+/**** Primary page styles ****/
+/* global to make everything cohesive*/
 *{
  box-sizing: border-box;
+ font-family: monospace;
+ font-size: 105%;
+ background-color: #F5F2EB;
 }
 
+/* 70% makes the text feel nice in the screen */
 p{
     margin: 0;
     padding: 0;
     line-height: 150%;
+    color: black;
+    opacity: 70%;
 }
 
+a{
+    text-decoration: none;
+    color: darkolivegreen;
+    font-weight: 600;
+}
 
+/**** Header and Nav bar ****/
+/* added background so I can make this sticky */
 header{
-    background-color: pink;
+    background: rgb(245,242,235);
+    background: linear-gradient(180deg, rgba(245,242,235,1) 87%, rgba(245,242,235,0) 100%);
     width: 100vw;
     height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 h1{
     padding: 20px 20px;
     font-size: 220%;
+    color: black;
+    opacity: 50%;
 }
+
 nav ul {
     list-style-type: none ;
     position: absolute;
@@ -34,18 +55,7 @@ li {
     padding: 0 20px;
 }
 
-footer {
-    background-color: darkgrey;
-    text-align: center;
-    width: 100%;
-    padding: 20px;
-}
-
-footer ul {
-    text-align: center;
-    padding: 10px;
-    margin: 0;
-}
+/**** Main Styles including portfolios ****/
 
 main>section {
 border: 1px solid black;
@@ -64,8 +74,10 @@ main aside {
     align-items: flex-start;
     padding-right: 20px;
     padding-top: 20px;
-    border-right: 4px solid gray;
-    font-size: large;
+    border-right: 4px solid black;
+    font-size: 25px;
+    font-family: monospace;
+    opacity: 50%;
 }
 
 .content {
@@ -111,4 +123,24 @@ img:hover{
     width: 100%;
     min-height: 100%;
     filter: grayscale(10%);
+}
+
+
+/**** Footer ****/
+
+footer {
+    background-color: darkgrey;
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+}
+
+footer ul {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+footer ul li a{
+    font-weight: 400;
 }
