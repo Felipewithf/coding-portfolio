@@ -1,9 +1,9 @@
-# challenge2-portfolio
+# Challenge2-portfolio
 Bootcamp- Second Challenge
 
 ## Description
 
-Create A portfolio of work where I can showcase my coding skills and talents to employers looking to find a part-time or full-time employee.
+Create a portfolio of work where I can showcase my coding skills and talents to employers looking to find a part-time or full-time employee.
 The goal of this portfolio is to showcase my HTML and CSS knoweldge without using any Javascript.
 
 The portfolio has with multiple sections, navigation links, classes, id, pseoudo classes and different screen breakpoints.
@@ -27,13 +27,12 @@ Below are screenshots of the four breakpoints.
 
 ## Credits
 
-This was done as part of a challenge within 4 days for at fullstack bootcamp course
+This was done as part of a coding challenge and completed within four days for around 6 hours total
 
 ## License
 
 MIT
----
 
 ## Tests
 
-Feel free to resize the screen on the github Pages environment and test the responsivenes!
+Feel free to resize the screen using "inspect" on google chrome or just resizing the window manually to test the responsivenes!
