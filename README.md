@@ -1,5 +1,5 @@
-# Challenge2-portfolio
-Bootcamp- Second Challenge
+# Coding Portfolio
+Display some of my personal and task projects
 
 ## Description
 
